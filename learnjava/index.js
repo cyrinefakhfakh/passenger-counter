@@ -5,7 +5,10 @@ function increment(){
     countEl.innerText=count
 }
 function save(){
-
-    console.log(count)
+    let count12=document.getElementById("people")
+    count12.innerText=count12.innerText+"-"+count
+    console.log(count12)
+    count=0
+    countEl.innerText=0
   }
 
